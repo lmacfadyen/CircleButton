@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     func configureButton()
     {
         addButton.layer.cornerRadius = 0.5 * addButton.bounds.size.width
-        addButton.layer.borderColor = UIColor(red:0.0/255.0, green:122.0/255.0, blue:255.0/255.0, alpha:1).CGColor as CGColorRef
+        addButton.layer.borderColor = UIColor.redColor().CGColor as CGColorRef
         addButton.layer.borderWidth = 2.0
         addButton.clipsToBounds = true
     }
